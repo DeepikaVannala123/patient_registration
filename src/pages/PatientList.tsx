@@ -84,7 +84,6 @@ const PatientList: React.FC = () => {
         : bValue.localeCompare(aValue);
     }
 
-    // For non-string types
     if (aValue < bValue) return sortDirection === 'asc' ? -1 : 1;
     if (aValue > bValue) return sortDirection === 'asc' ? 1 : -1;
     return 0;

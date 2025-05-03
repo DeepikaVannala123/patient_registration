@@ -42,7 +42,6 @@ const PatientRegistration: React.FC = () => {
       [name]: value,
     }));
 
-    // Clear error when field is edited
     if (errors[name as keyof PatientFormData]) {
       setErrors((prev) => ({
         ...prev,
