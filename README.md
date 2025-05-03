@@ -37,8 +37,8 @@ A modern patient management system that runs entirely in your browser using PGli
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/bajpaisushil/patient-system-pglite.git
-cd patient-system-pglite
+git clone https://github.com/bajpaisushil/Patient_System-Pglite.git
+cd Patient_System-Pglite
 ```
 
 2. Install dependencies:
