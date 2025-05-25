@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getAllPatients, searchPatientsByName } from '../services/DatabaseService';
 import { useDatabaseContext } from '../context/DatabaseContext';
-import { Search, Download } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface Patient {
   id: number;
@@ -89,18 +89,7 @@ const PatientList: React.FC = () => {
     return 0;
   });
 
-  const downloadPatientData = () => {
-    if (patients.length === 0) return;
-    
-    const jsonStr = JSON.stringify(patients, null, 2);
-    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(jsonStr);
-    const downloadAnchorNode = document.createElement('a');
-    downloadAnchorNode.setAttribute("href", dataStr);
-    downloadAnchorNode.setAttribute("download", "patient_data.json");
-    document.body.appendChild(downloadAnchorNode);
-    downloadAnchorNode.click();
-    downloadAnchorNode.remove();
-  };
+
 
   if (!isInitialized) {
     return (
