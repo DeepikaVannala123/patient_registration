@@ -53,7 +53,7 @@ const Dashboard: React.FC = () => {
       <header className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard</h1>
         <p className="mt-2 text-sm text-gray-600">
-          Welcome to MedicalBlocks, your patient registration system
+          Welcome to Medblocks, your patient registration system
         </p>
       </header>
 
@@ -86,12 +86,13 @@ const Dashboard: React.FC = () => {
               </Link>
             </div>
             <span className="inline-flex rounded-md shadow-sm">
-              <Link
-                to="/register"
-                className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
-              >
-                <UserPlus className="h-4 w-4 mr-1" /> Register New
-              </Link>
+           <Link
+  to="/register"
+  className="inline-flex items-center px-3 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+>
+  <UserPlus className="h-4 w-4 mr-1" /> Register New
+</Link>
+
             </span>
           </div>
         </div>

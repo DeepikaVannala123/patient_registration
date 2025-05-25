@@ -153,14 +153,7 @@ const PatientList: React.FC = () => {
               >
                 Clear
               </button>
-              <button
-                type="button"
-                onClick={downloadPatientData}
-                className="btn btn-secondary flex items-center"
-                disabled={patients.length === 0}
-              >
-                <Download className="h-4 w-4 mr-1" /> Export
-              </button>
+             
             </div>
           </div>
         </div>
