@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
       {/* Mobile sidebar backdrop */}
       {open && (
         <div
-          className="fixed inset-0 z-40 bg-gray-600 bg-opacity-75 md:hidden"
+          className="fixed inset-0 z-40 bg-gray-600 bg-opacity-75 s"
           onClick={onClose}
         ></div>
       )}
@@ -46,7 +46,7 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
         }`}
       >
         <div className="flex items-center justify-between h-16 px-4 border-b border-gray-200">
-          <span className="text-xl font-bold text-primary-800">MedicalBlocks</span>
+          <span className="text-xl font-bold text-primary-800">Medblocks</span>
           <button
             type="button"
             className="rounded-md text-gray-500 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-primary-500"
@@ -84,12 +84,10 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose }) => {
       </div>
 
       {/* Sidebar for desktop */}
-      <div className="hidden md:flex md:flex-shrink-0">
+      <div className="hidden md:flex md:flex-shrink-0" style={{marginTop:"40px"}} >
         <div className="flex flex-col w-64">
           <div className="flex flex-col flex-grow border-r border-gray-200 bg-white pt-5 pb-4 overflow-y-auto">
-            <div className="flex items-center flex-shrink-0 px-4">
-              <span className="text-xl font-bold text-primary-800">MedicalBlocks</span>
-            </div>
+
             <div className="mt-8 flex-grow flex flex-col">
               <nav className="flex-1 px-2 space-y-1">
                 {navItems.map((item) => (
