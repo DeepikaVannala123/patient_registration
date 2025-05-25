@@ -16,15 +16,6 @@ A modern patient management system that runs entirely in your browser using PGli
 https://patient-system-pglite.vercel.app
 
 
-![Screenshot 2025-05-03 115837](https://github.com/user-attachments/assets/feaeec6d-15c7-4b2f-a47d-3317ae896057)
-
-![Screenshot 2025-05-03 115553](https://github.com/user-attachments/assets/e813fb4d-33d9-49e0-9b3f-50557b0f5259)
-
-![Screenshot 2025-05-03 115608](https://github.com/user-attachments/assets/56994276-aef8-46b0-9a7b-71d1cf2eb34e)
-
-![Screenshot 2025-05-03 115621](https://github.com/user-attachments/assets/f0ee4c2d-f882-4fec-ab4b-d23d6f04ce7d)
-
-
 ## 📦 Installation
 
 ### Prerequisites
@@ -34,26 +25,19 @@ https://patient-system-pglite.vercel.app
 
 ### Setup Steps
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/bajpaisushil/Patient_System-Pglite.git
-cd Patient_System-Pglite
-```
-
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the development server:
+2. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-4. Open your browser and navigate to `http://localhost:5173`
+3. Open your browser and navigate to `http://localhost:5173`
 
 ## 🛠️ Project Structure
 
@@ -157,20 +141,6 @@ In the project directory, you can run:
 - **Lucide React** - Icon library
 - **Vite** - Build tool and development server
 
-## 🤝 Contributing
-
-Contributions are always welcome!
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add some amazing feature'`)
-5. Push to the branch (`git push origin feature/amazing-feature`)
-6. Open a Pull Request
-
-Please make sure to update tests as appropriate.
-
-
 ## 🙏 Acknowledgements
 
 - [Pglite Docs]([https://electric-sql.com/](https://pglite.dev/docs/)) for developing PGlite
@@ -180,3 +150,4 @@ Please make sure to update tests as appropriate.
 ---
 
 ⭐ Found this project useful? Please consider giving it a star on GitHub! ⭐
+# patient_registration
