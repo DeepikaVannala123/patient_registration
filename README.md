@@ -1,4 +1,4 @@
-# MedicalBlocks: Patient Management System with React & PGlite
+# Medblocks: Patient Management System with React & PGlite
 
 A modern patient management system that runs entirely in your browser using PGlite (WebAssembly PostgreSQL).
 
@@ -148,6 +148,4 @@ In the project directory, you can run:
 - [React](https://reactjs.org/) for the UI library
 
 ---
-
-⭐ Found this project useful? Please consider giving it a star on GitHub! ⭐
 # patient_registration
